@@ -21,8 +21,8 @@ function Post({ post, action }) {
         <Image 
         loader={imageLoader}
         src={post.image} 
-        width={200}
-        height={200}
+        width={120}
+        height={90}
         alt={post.title}
         quality={50}
         />
